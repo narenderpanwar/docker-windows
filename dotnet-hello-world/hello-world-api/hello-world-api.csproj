@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <!-- Update target framework to .NET 6.0 -->
+    <TargetFramework>net6.0</TargetFramework>
+
+    <!-- Optional: specify runtime identifiers (if you plan to deploy as a self-contained app) -->
+    <!-- <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers> -->
+  </PropertyGroup>
+
+  <!-- Static web assets folder -->
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <!-- Update to .NET 6.0 specific packages -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
+
