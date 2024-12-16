@@ -3,7 +3,7 @@ param (
     [string]$ImageName = "dotapp:latest",
     [string]$ContainerName = "dotapp-container",
     [string]$PortMapping = "8080:80",
-    [string]$GitRepo = "git@github.com:narenderpanwar/docker-windows.git",
+    [string]$GitRepo = "https://github.com/narenderpanwar/docker-windows.git",
     [string]$ClonePath = "$PSScriptRoot/docker-windows"
 )
 
